@@ -1,0 +1,25 @@
+{
+  "name": "space-explorer",
+  "version": "1.0.0",
+  "description": "Space Explorer is a 2D space adventure game where players navigate different planets, dodge asteroids, and battle alien invaders. Built with Phaser 3.",
+  "main": "src/game.js",
+  "scripts": {
+    "start": "http-server . -o -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phaser",
+    "game",
+    "HTML5",
+    "space",
+    "explorer"
+  ],
+  "author": "Fatih Turker",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
