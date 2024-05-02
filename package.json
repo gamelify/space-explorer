@@ -4,7 +4,7 @@
   "description": "Space Explorer is a 2D space adventure game where players navigate different planets, dodge asteroids, and battle alien invaders. Built with Phaser 3.",
   "main": "src/game.js",
   "scripts": {
-    "start": "http-server . -o -c-1",
+    "start": "http-server . -c-1 --cors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
