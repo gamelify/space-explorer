@@ -16,9 +16,9 @@ class SoundManager {
       'backgroundMusic',
       'assets/sounds/backgroundMusic.mp3'
     );
-    this.scene.load.audio('explosion', 'assets/sounds/explosion.mp3');
-    this.scene.load.audio('shoot', 'assets/sounds/shoot.mp3');
-    this.scene.load.audio('powerUp', 'assets/sounds/powerUp.mp3');
+    this.scene.load.audio('explosion', 'assets/sounds/explosion.wav');
+    this.scene.load.audio('shoot', 'assets/sounds/shoot.wav');
+    this.scene.load.audio('powerUp', 'assets/sounds/powerUp.wav');
   }
 
   createSounds() {

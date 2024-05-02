@@ -16,7 +16,7 @@ class GameScene extends Phaser.Scene {
     this.load.image('asteroid', 'assets/asteroid.png');
     this.load.image('bullet', 'assets/bullet.png');
     this.load.image('powerup', 'assets/powerup.png');
-    this.load.image('background', 'assets/space-background.jpg');
+    this.load.image('background', 'assets/space-background.png');
   }
 
   create() {

@@ -22,14 +22,14 @@ class BootScene extends Phaser.Scene {
     this.load.image('asteroid', 'assets/asteroid.png');
     this.load.image('bullet', 'assets/bullet.png');
     this.load.image('powerup', 'assets/powerup.png');
-    this.load.image('background', 'assets/space-background.jpg');
+    this.load.image('background', 'assets/space-background.png');
     this.load.image('menu-background', 'assets/menu-background.png');
 
     // Load sounds if your game includes them
     this.load.audio('backgroundMusic', 'assets/sounds/backgroundMusic.mp3');
-    this.load.audio('explosion', 'assets/sounds/explosion.mp3');
-    this.load.audio('shoot', 'assets/sounds/shoot.mp3');
-    this.load.audio('powerUp', 'assets/sounds/powerUp.mp3');
+    this.load.audio('explosion', 'assets/sounds/explosion.wav');
+    this.load.audio('shoot', 'assets/sounds/shoot.wav');
+    this.load.audio('powerUp', 'assets/sounds/powerUp.wav');
 
     // Handle loading complete event
     this.load.on('complete', () => {
